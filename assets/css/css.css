@@ -1,0 +1,39 @@
+header {
+    text-align: center;
+    padding: 13px;
+    background-color: blue;
+    color:white
+}
+
+img {
+    height: 66px;
+    width: 83px;
+}
+
+.card a:first-child {
+    flex-basis: 100%;
+    height: 310px;
+}
+
+section  {
+    display: inline-block;
+    /* or use 'display: inline-flex;' */
+    width: 150px;
+    margin: 10px;
+  }
+
+button {
+    width: 100%;
+    display: block;
+}
+
+.btn {
+    color:white;
+    background-color: blue;
+    margin: 1px;
+}
+
+.btn:hover {
+    background-color: blue;
+    color:white
+}
