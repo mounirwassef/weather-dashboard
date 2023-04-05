@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'novo square', cursive;
+}
+
 header {
     text-align: center;
     padding: 13px;
     background-color: blue;
-    color:white
+    color: white
 }
 
 img {
@@ -15,12 +24,11 @@ img {
     height: 310px;
 }
 
-section  {
+section {
     display: inline-block;
-    /* or use 'display: inline-flex;' */
     width: 150px;
     margin: 10px;
-  }
+}
 
 button {
     width: 100%;
@@ -28,12 +36,19 @@ button {
 }
 
 .btn {
-    color:white;
+    color: white;
     background-color: blue;
     margin: 1px;
 }
 
 .btn:hover {
     background-color: blue;
-    color:white
+    color: white
+}
+
+
+
+section .card {
+    color: white;
+    background-color: blue;
 }
